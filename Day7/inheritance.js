@@ -28,4 +28,5 @@ class Admin extends User {
 let admin = new Admin("sagun", "sagunkopassword");
 console.log(admin.getName());
 admin.addUser("Ram", "Bahadur");
+admin.addUser("Shyam", "Krishna");
 console.log(users);
