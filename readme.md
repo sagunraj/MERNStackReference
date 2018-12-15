@@ -72,6 +72,7 @@ Object Destructuring
 Rest and Spread Operators
 
 Assignment
+```
 let array1 = [
 {id: 1, name: "Ram"},
 {id: 2, name: "Shyam"},
@@ -83,6 +84,7 @@ let array2 = [
 {id: 3, age: 300}
 ];
 // expected output array = [{id: 1, name: "Ram", age: 100}, {id: 2, name: "Shyam", age: 200}, {id: 3, name: "Hari", age: 300}]
+```
 
 ------------------------------------------------------------------------------------
 Day 9
@@ -95,8 +97,33 @@ set them into array1 and array2 respectively. Then, display output as
 1 2 3 4 5
 6 7 8 9 10
 
-1 6
-2 7
-3 8
-4 9
-5 10
+1 6 <br/>
+2 7 <br/>
+3 8 <br/>
+4 9 <br/>
+5 10 <br/>
+
+------------------------------------------------------------------------------------
+Day 10
+------------------------------------------------------------------------------------
+FileSystem (fs): ```fs.writeFile("filename/path", "content", callback);
+fs.appendFile("filename/path", "content", callback);
+fs.readFile("filename/path", callback);
+fs.rename("oldfilename", "newfilename", callback);
+fs.unlink("filename", callback);
+fs.readFileSync();
+fs.writeFileSync();
+
+#### Assignment
+Show a menu in console with the following items:
+1. Insert todo
+	- Todo name
+	- Todo description
+2. Show all todo
+3. Delete todo (Delete the todo with number)
+4. Exit
+
+### NPM
+- Initialize Node application: ``` npm init ```
+- Fill up all the details asked and exit with 'Yes' at last
+- Install packages in the application by typing: ``` npm install --save <packagename> ```

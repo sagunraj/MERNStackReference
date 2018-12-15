@@ -53,7 +53,7 @@ rl.question("Enter the first name:", (answer) => {
         }
         else {
             for (let j = 0, k = arr.length - 1; j <= Math.floor(arr.length / 2) - 1, k >= Math.ceil(arr.length / 2); j++ , k--) {
-                if (j==k || arr.length+1%2==0) {
+                if (j==k) {
                     break;
                 }
                 x = arr[j] + arr[k];
