@@ -106,13 +106,17 @@ set them into array1 and array2 respectively. Then, display output as
 ------------------------------------------------------------------------------------
 Day 10
 ------------------------------------------------------------------------------------
-FileSystem (fs): ```fs.writeFile("filename/path", "content", callback);
+FileSystem (fs): 
+
+```
+fs.writeFile("filename/path", "content", callback);
 fs.appendFile("filename/path", "content", callback);
 fs.readFile("filename/path", callback);
 fs.rename("oldfilename", "newfilename", callback);
 fs.unlink("filename", callback);
 fs.readFileSync();
 fs.writeFileSync();
+```
 
 #### Assignment
 Show a menu in console with the following items:
@@ -127,3 +131,17 @@ Show a menu in console with the following items:
 - Initialize Node application: ``` npm init ```
 - Fill up all the details asked and exit with 'Yes' at last
 - Install packages in the application by typing: ``` npm install --save <packagename> ```
+
+------------------------------------------------------------------------------------
+Day 11
+------------------------------------------------------------------------------------
+### NPM
+- Install package globally in the machine: ``` npm install -g <packagename> ```
+- Uninstall locally installed package: ``` npm uninstall --save <packagename> ```
+- Uninstall globally installed package: ``` npm uninstall -g <packagename> ```
+
+#### Underscore package installation from NPM
+#### Facebook-Chat-API package installation from NPM
+
+Assignment:
+Find a package for Twitter search.
