@@ -1,0 +1,16 @@
+{
+  "name": "twitter-search",
+  "version": "1.0.0",
+  "description": "Uses twit package from NPM.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "sagunraj",
+  "license": "ISC",
+  "dependencies": {
+    "opn": "^5.4.0",
+    "twit": "^2.2.11"
+  }
+}
