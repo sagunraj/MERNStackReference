@@ -145,3 +145,16 @@ Day 11
 
 Assignment:
 Find a package for Twitter search.
+
+------------------------------------------------------------------------------------
+Day 12
+------------------------------------------------------------------------------------
+#### JavaScript in Browser
+
+`window` is a global object.
+`console.dir(window);`
+`window.alert("Hello world");` However, you can just write `alert()` since window is a global object.
+`prompt("Are you a boy?");`
+`confirm("Am I okay?");`
+
+id and class
