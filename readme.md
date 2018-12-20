@@ -1,10 +1,11 @@
 Day 1
 ------------------------------------------------------------------------------------
+```
 console.log("Hello world!");
 console.warn("Hello, I am log!");
 console.error("Error!");
 console.table([{name:"Sagun", Gender:"male"}, {name: "Subash", Gender:"male"}]); // suitable for debugging purposes
-
+```
 ------------------------------------------------------------------------------------
 Day 2
 ------------------------------------------------------------------------------------
@@ -25,15 +26,18 @@ Tasks:
 Day 4
 ------------------------------------------------------------------------------------
 Math	
+```
 Math.min(args)
 Math.max(args)
 Math.ceil()
 Math.floor()
 Math.PI
 Math.random()
-Math.round()	
+Math.round()
+```	
 
 Date
+```
 Const d = new Date();
 d.getDay();
 d.getMinutes();
@@ -42,7 +46,7 @@ d.getHours();
 d.getSeconds();
 d.getMonth();
 d.getYear();
-
+```
 ------------------------------------------------------------------------------------
 Day 5
 ------------------------------------------------------------------------------------
@@ -52,7 +56,9 @@ forEach(), map(), filter() -> the elements that return true values are stored in
 ------------------------------------------------------------------------------------
 Day 6
 ------------------------------------------------------------------------------------
+```
 reduce(), some(), every(), includes(), find()
+```
 
 ------------------------------------------------------------------------------------
 Day 7
@@ -158,3 +164,30 @@ Day 12
 `confirm("Am I okay?");`
 
 id and class
+
+------------------------------------------------------------------------------------
+Day 13
+------------------------------------------------------------------------------------
+Todo App with Vanilla JS <br/>
+Calculator App with Vanilla JS
+
+------------------------------------------------------------------------------------
+Day 14
+------------------------------------------------------------------------------------
+### React JS
+- Introduced by Facebook.
+- Component Based: Components can be reused for multiple number of times.
+- Virtual DOM: Makes it faster.
+- Two-way data binding.
+
+#### First React Application
+- Install `create-react-app` CLI package globally by using `npm install -g create-react-app`.
+- Create a new React application by typing `create-react-app <application-name>`.
+
+#### JSX
+- JSX enables the use of HTML within JavaScript code.
+
+#### Assignment:
+- Create a project with three components: Header, Section and Footer.
+- Within Section, add two components: Headline and News.
+- Within the Footer, add two components: Add and Contact.
