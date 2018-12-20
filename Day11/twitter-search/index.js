@@ -9,10 +9,10 @@ const rl = readline.createInterface({
 
 
 var T = new Twit({
-  consumer_key:         '9IihdHcdEffpAtSwMh14CWZd3',
-  consumer_secret:      'L5i2ftMgYWCJqRued1HHzUToFkUeZAdxSQyqwxdRVqeT86NORR',
-  access_token:         '82638876-DOOpfg7lCzmGlA5FtXHNF3MmrFAMnDzF9R2uca9V5',
-  access_token_secret:  '8vXHbIBvU3Dqgw58uPVE3tdAhHSqRa6fhpua3OjXZKdRh',
+  consumer_key:         'key',
+  consumer_secret:      'secret',
+  access_token:         'token',
+  access_token_secret:  'tsecret',
   timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
   strictSSL:            true,     // optional - requires SSL certificates to be valid.
 });
