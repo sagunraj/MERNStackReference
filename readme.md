@@ -191,3 +191,45 @@ Day 14
 - Create a project with three components: Header, Section and Footer.
 - Within Section, add two components: Headline and News.
 - Within the Footer, add two components: Add and Contact.
+
+------------------------------------------------------------------------------------
+Day 15
+------------------------------------------------------------------------------------
+#### Class Component:
+- A class is defined, extending `Component`, and `render()` method is used to render JSX.
+- Logical operations like method definition, event actions are written in class components.
+```
+class App extends React.Component {
+	render(){
+		return (
+			<div> Hello </div>
+		)
+	}
+}
+```
+
+#### Functional Component:
+- A normal JavaScript function that renders JSX.
+- The representation of various components like Button, Textbox etc. (that need to be displayed but don't do any logical operations) is done in functional components.
+```
+const App = () => { return (<div>Hello</div>) }
+```
+
+<em>Notes about JSX usage:
+- To include JavaScript code in JSX, include the JavaScript code within { } in JSX. However, for-loops, if else etc. cannot be used here.
+For example: 
+```
+const person = "Ram";
+const Logo = () => {
+	return (<div>
+	This is the answer: {2+2} {person}
+	</div>)
+}
+```
+- In JSX, HTML classes are renamed as `className`.
+- Import a CSS file into a component by writing `import './index.css';`.
+- To write inline CSS, the syntax will be something like: `<input type="text" style={{borderRadius:"10px"}}/>`. In other words, styles should be added by making objects.
+</em>
+
+
+
