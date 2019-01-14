@@ -10,7 +10,7 @@ const LoginForm = () => {
         </div>
         <div className="col-md-6 password-login">
           <label>Password</label><br/>
-          <input type="text" />
+          <input type="password" />
           <button id="login-button">Log In</button>
           <br/>
           <a href="#" style={{color: "#83B4D4"}}>Forgotten account?</a>

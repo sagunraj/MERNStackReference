@@ -231,5 +231,60 @@ const Logo = () => {
 - To write inline CSS, the syntax will be something like: `<input type="text" style={{borderRadius:"10px"}}/>`. In other words, styles should be added by making objects.
 </em>
 
+------------------------------------------------------------------------------------
+Day 16
+------------------------------------------------------------------------------------
+#### State:
+- An object that holds the data that belong to a component.
+- The objects present in `state` of a component are accessed by using `this.state`. 
+- `this.setState({});` is used to update the values in a state.
 
+<em>Quick tip: If you use `{condition && component}`, the component statement will execute only when condition is `true`.</em>
 
+#### Props:
+- Props enable us to send data from parent component to child component.
+- For example, in `<Student name = 'Ram'/>` the prop is `name` which is sent to `Student` component.
+
+------------------------------------------------------------------------------------
+Day 17
+------------------------------------------------------------------------------------
+#### Assignment:
+##### List of Employees App
+- Two buttons: Add Employee and Delete Employee
+- Add Employee button clicked means a form asking for Name, Address and Salary is displayed.
+- Employee list with all the details should be shown.
+- Clicking Delete Employee button displays buttons on all the items in Employee list.
+- When one of the Delete buttons is clicked, a confirmation modal is displayed and if Yes is pressed, the item is deleted.
+- A dropdown that allows the items to be sorted on the basis of Name or Salary should be present.
+
+------------------------------------------------------------------------------------
+Day 18
+------------------------------------------------------------------------------------
+#### Promise:
+- Promise is a method that creates and executes asynchronous tasks.
+- Generally, when there is a sequence of instructions, it stays in the call stack. But if there is an asynchronous task, it first stays in the event loop, then waits for the tasks in the call stack to be completed first and then finally gets executed.
+- Promise takes two parameters: `resolve` and `reject`. If `resolve` is found, `then` function is executed and if `reject` is found, `catch` is executed. After all the tasks in `then` and `catch` are performed, `finally` is executed.
+
+- Async-await waits for the asynchronous tasks to be executed normally along with the normal tasks.
+
+------------------------------------------------------------------------------------
+Day 19
+------------------------------------------------------------------------------------
+#### Async Await and Promise Revision
+
+------------------------------------------------------------------------------------
+Day 20
+------------------------------------------------------------------------------------
+#### Use of API using `fetch`
+
+------------------------------------------------------------------------------------
+Day 21
+------------------------------------------------------------------------------------
+#### Lifecycle:
+- `componentWillMount()`: This method is called before the `render()` method is called. Appropriate to call APIs, since it will pull the required data before the component is rendered on the screen.
+- `componentDidMount()`: This method is called after the `render()` method is called, or after the component is mounted.
+- `componentDidUpdate()`: This method is called after the component has been updated.
+- `componentWillUnmount()`: This method is called before the component is going to be unmounted.
+- `componentWillReceiveProps(prevProp, nextProp)`: This method is called when the component receives any new props. `prevProp` has the props that were received before the component was updated and `nextProp` has the new props received after updating of the component. (Deprecated, since `componentDidUpdate()` is able to do the same thing.)
+
+<i>Quick tip: Create anonymous arrow function to get rid of the hassle of having to use `bind(this)` in method references.</i>
