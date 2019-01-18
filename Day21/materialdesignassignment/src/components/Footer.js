@@ -18,27 +18,27 @@ const Footer = (props) => {
        
         <Typography variant="subtitle1"><ul style={{"listStyleType":"none", "textAlign": "left"}}>
         <li><Typography variant="headline">Working Areas</Typography><Divider/></li>
-        <li>Health and Education</li>
-        <li>Behavioral Change Communication</li>
-        <li>Good Governance and Human Rights</li>
-        <li>Women Empowerment and Child Protection</li>
+        <li><a href="#">Health and Education</a></li>
+        <li><a href="#">Behavioral Change Communication</a></li>
+        <li><a href="#">Good Governance and Human Rights</a></li>
+        <li><a href="#">Women Empowerment and Child Protection</a></li>
         </ul></Typography>
         </div>
         <div className="col-md-4">
         <Typography variant="subtitle1"><ul style={{"listStyleType":"none", "textAlign": "left"}}>
         <li><Typography variant="headline">Opportunities</Typography><Divider/></li>
-        <li>Partner with us</li>
-        <li>Internship with us</li>
-        <li>Volunteer</li>
-        <li>Apply for our fellowship</li>
+        <li><a href="#">Partner with us</a></li>
+        <li><a href="#">Internship with us</a></li>
+        <li><a href="#">Volunteer</a></li>
+        <li><a href="#">Apply for our fellowship</a></li>
         </ul></Typography>
         </div>
         <div className="col-md-4">
         <Typography variant="subtitle1"><ul style={{"listStyleType":"none", "textAlign": "left"}}>
         <li><Typography variant="headline">Contact Us</Typography><Divider/></li>
-        <li>Call us at +977 01234567</li>
+        <li>Call us at <a href="tel: +97701234567">+977 01234567</a></li>
         <li>Visit us at Kathmandu, Nepal.</li>
-        <li>Email us at info@info.com</li>
+        <li>Email us at <a href="mailto:info@info.com">info@info.com</a></li>
         </ul></Typography>
         </div>
         </div>

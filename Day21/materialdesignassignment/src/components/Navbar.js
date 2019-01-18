@@ -21,7 +21,7 @@ import MailIcon from '@material-ui/icons/Mail';
 import LocationIcon from '@material-ui/icons/LocationOn';
 import CreateIcon from '@material-ui/icons/Create';
 import MainContent from './MainContent';
-
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const drawerWidth = 240;
 
@@ -138,30 +138,36 @@ class PersistentDrawerLeft extends React.Component {
           </div>
           <Divider />
           <List>
-            <ListItem button component="a" href="#home" key="Home">
+          <AnchorLink href='#home'  style={{textDecoration: "none"}} offset="100"><ListItem button key="Home">
             <ListItemIcon>
               <HomeIcon/>
               <ListItemText primary="Home"/>
             </ListItemIcon>
             </ListItem>
-            <ListItem button component="a" href="#features" key="Features">
+            </AnchorLink>
+            <AnchorLink href="#features" style={{textDecoration: "none"}} offset="100"><ListItem button key="Features">
             <ListItemIcon>
               <CreateIcon/>
               <ListItemText primary="Features"/>
             </ListItemIcon>
             </ListItem>
-            <ListItem button component="a" href="#location" key="Location">
+            </AnchorLink>
+            <AnchorLink style={{textDecoration: "none"}} href="#location" offset="100">
+            <ListItem button key="Location">
             <ListItemIcon>
               <LocationIcon/>
               <ListItemText primary="Location"/>
             </ListItemIcon>
             </ListItem>
-            <ListItem button component="a" href="#contact" key="Contact">
+            </AnchorLink>
+            <AnchorLink style={{textDecoration: "none"}} href="#contact" offset="100">
+            <ListItem button key="Contact">
             <ListItemIcon>
               <MailIcon/>
               <ListItemText primary="Contact"/>
             </ListItemIcon>
             </ListItem>
+            </AnchorLink>
           </List>
           <Divider />
         </Drawer>
