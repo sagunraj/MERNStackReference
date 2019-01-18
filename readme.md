@@ -288,3 +288,12 @@ Day 21
 - `componentWillReceiveProps(prevProp, nextProp)`: This method is called when the component receives any new props. `prevProp` has the props that were received before the component was updated and `nextProp` has the new props received after updating of the component. (Deprecated, since `componentDidUpdate()` is able to do the same thing.)
 
 <i>Quick tip: Create anonymous arrow function to get rid of the hassle of having to use `bind(this)` in method references.</i>
+
+------------------------------------------------------------------------------------
+Day 22
+------------------------------------------------------------------------------------
+#### Children:
+- It is a special type of prop that is used to pass children elements for rendering.
+
+#### Higher Order Component:
+- It is a special function that takes a component as an argument and performs manipulation on that and returns a new component.
