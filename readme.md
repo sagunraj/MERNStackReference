@@ -297,3 +297,8 @@ Day 22
 
 #### Higher Order Component:
 - It is a special function that takes a component as an argument and performs manipulation on that and returns a new component.
+
+------------------------------------------------------------------------------------
+Day 22
+------------------------------------------------------------------------------------
+#### MovieDB app
