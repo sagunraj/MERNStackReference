@@ -4,6 +4,7 @@ import './App.css';
 import {Switch, Route} from 'react-router-dom';
 import User from './screens/User';
 import UserDetails from './screens/UserDetails';
+import PostScreen from './screens/PostScreen';
 class App extends Component {
   render() {
     return (
@@ -11,6 +12,7 @@ class App extends Component {
        <Switch>
          <Route path="/" exact = {true} component = {User}/>
           <Route path="/user-details" component = {UserDetails}/>
+          <Route path="/post" component = {PostScreen}/>
        </Switch>
       </div>
     );

@@ -19,7 +19,6 @@ export default class User extends Component {
     return (
       <div className="users">
         {this.state.users.map((user)=><UserList user={user} showDetails = {this.showDetails} />)}
-        This is from user.
       </div>
     )
   }
