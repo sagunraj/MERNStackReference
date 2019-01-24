@@ -1,0 +1,21 @@
+.users{
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.userlist{
+  margin:20px;
+  background: rgb(0, 182, 243);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.userlist div:nth-child(1){ /* first element of userlist */
+  font-weight: bold;
+  font-size: 3em;
+  cursor: pointer;
+}
+
+.userlist div:nth-child(2){
+  color: rgb(44, 44, 44);
+}
