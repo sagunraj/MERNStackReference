@@ -1,6 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 .user-card {
   display: flex;
   justify-content: center;
@@ -28,6 +29,11 @@ body {
   border-radius: 5px;
   box-shadow: 1px 1px 10px;
   margin: 5px;
+  transition: all .2s ease-in-out;
+}
+
+.user:hover {
+  transform: scale(1.1);
 }
 
 .search {
@@ -47,6 +53,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .userdetails {
   display: flex;
   margin-top: 5%;

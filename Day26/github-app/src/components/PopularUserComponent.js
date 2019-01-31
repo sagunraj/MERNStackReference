@@ -14,7 +14,7 @@ class PopularUserComponent extends Component {
     return (
       <div className = "user" onClick={()=>this.handleClick(this.props.user.login)}>
       <img src = {this.props.user.avatar_url} alt="user_avatar"/>
-      {this.props.user.login}
+      <h4>{this.props.user.login}</h4>
   </div>
     )
   }

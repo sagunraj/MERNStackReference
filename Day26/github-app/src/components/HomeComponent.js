@@ -18,10 +18,14 @@ export default class HomeComponent extends Component {
 
   render() {
     return (
+      <div style={{textAlign: "center"}}>
+      <h1 style={{marginTop: "0.5em"}}>Popular Users</h1>
+      <hr/>
       <div className = "user-card">
       {this.state.loading?<img src={Spinner}/>:this.state.popular_users.map((user)=>{
         return <PopularUserComponent user = {user}/>
       })}
+      </div>
       </div>
     )
   }

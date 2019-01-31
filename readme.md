@@ -309,3 +309,8 @@ Day 23
 #### Routing:
 - Installation of `react-router-dom` package.
 - `exact = {true}` prop in `<Route path="/" component = {Home}>` renders `Home` component only when `/` is encountered, but now when `/something` is encountered.
+
+------------------------------------------------------------------------------------
+Day 28
+------------------------------------------------------------------------------------
+#### Hooks:

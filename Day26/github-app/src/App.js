@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Route, Switch, Link} from 'react-router-dom';
+import {Route, Switch, NavLink, Link} from 'react-router-dom';
 import HomeComponent from './components/HomeComponent';
 import AboutComponent from './components/AboutComponent';
 import SearchComponent from './components/SearchComponent';
@@ -18,9 +18,9 @@ class App extends Component {
   </button>
   <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
     <div className="navbar-nav">
-      <Link to="/" className="nav-item nav-link">Home</Link>
-      <Link to="search" className="nav-item nav-link">Search</Link>
-      <Link to="about" className="nav-item nav-link">About</Link>
+      <NavLink to="/" exact className="nav-item nav-link">Home</NavLink>
+      <NavLink to="search" className="nav-item nav-link">Search</NavLink>
+      <NavLink to="about" className="nav-item nav-link">About</NavLink>
     </div>
   </div>
 </nav>

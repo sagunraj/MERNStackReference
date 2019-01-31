@@ -18,7 +18,7 @@ export default class UserDetailsComponent extends Component {
     return (
       <div className = "userdetails">
         <div>
-            <img src={this.state.details.avatar_url} alt="avatar-url"/>
+            <img className="img img-fluid" src={this.state.details.avatar_url} alt="avatar-url"/>
         </div>
         <div className="details">
         <h2>User Details</h2><hr/>
