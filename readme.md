@@ -314,3 +314,12 @@ Day 23
 Day 28
 ------------------------------------------------------------------------------------
 #### Hooks:
+- useState: used to set state.
+
+------------------------------------------------------------------------------------
+Day 29
+------------------------------------------------------------------------------------
+#### Hooks:
+- useEffect:
+	- Used as componentDidMount() lifecycle hook counterpart of class component in functional component.
+	- `return () => {}` is called when component is unmounted.
