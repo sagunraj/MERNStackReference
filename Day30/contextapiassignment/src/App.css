@@ -1,0 +1,22 @@
+.dark {
+  color: white;
+  background: rgb(44, 44, 44);
+}
+
+.navbar {
+  height: 20px;
+}
+
+.body {
+  margin-top: 10px;
+  height: 60vh;
+}
+
+.footer {
+  margin-top: 10px;
+  height: 20px;
+}
+
+#material-switch {
+  margin-top: 10px;
+}

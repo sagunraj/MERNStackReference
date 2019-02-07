@@ -1,0 +1,29 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.section {
+  height: 400px;
+  margin-top: 10px;
+}
+
+.card {
+  height: 200px;
+  margin-top: 10px;
+}
+
+.footer {
+  height: 100px;
+  margin-top: 10px;
+}
+
+.light {
+  background: #ddd;
+}
+
+.dark {
+  background: rgb(41,38,38);
+  color: white;
+}
