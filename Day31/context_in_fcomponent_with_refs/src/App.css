@@ -1,0 +1,18 @@
+.navbar {
+  height: 50px;
+  background: rgb(0, 63, 145);
+  padding-top: 25px;
+  color: white;
+}
+
+.cart{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
