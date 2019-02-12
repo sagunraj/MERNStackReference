@@ -8,8 +8,9 @@ export default class ProductContextProvider extends Component {
     addedItems:[]
   }
 
-  addItem = () => {
-    console.log("Add items");
+  addItem = (id) => {
+    const newItems = [...this.state.items];
+    this.setState({addedItems: [...this.state.addedItems, newItems.find((item)=>item.id===id)]});
   }
   componentWillMount(){
     this.setState({items: items.items})

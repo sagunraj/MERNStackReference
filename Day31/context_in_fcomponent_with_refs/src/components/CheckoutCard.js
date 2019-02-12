@@ -19,7 +19,7 @@ const styles = {
   },
 };
 
-function ItemCard(props) {
+function CheckoutCard(props) {
   const productData = useContext(ProductContext);
   const { classes } = props;
   return (
@@ -42,15 +42,10 @@ function ItemCard(props) {
           </Typography>
         </CardContent>
       </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary" onClick={()=>productData.addItem(props.item.id)}>
-          Add to Cart
-        </Button>
-      </CardActions>
     </Card>
   );
 }
 
 
 
-export default withStyles(styles)(ItemCard);
+export default withStyles(styles)(CheckoutCard);
