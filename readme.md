@@ -323,3 +323,11 @@ Day 29
 - useEffect:
 	- Used as componentDidMount() lifecycle hook counterpart of class component in functional component.
 	- `return () => {}` is called when component is unmounted.
+
+------------------------------------------------------------------------------------
+Day 32
+------------------------------------------------------------------------------------
+#### Redux:
+##### Components of Redux:
+- Redux store: Stores all the data of the app and provides data to every component.
+- Reducer: Listens to ACTIONS DISPATCHED from components and modifies the data present in the Redux store.
