@@ -1,0 +1,17 @@
+.mainpage {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark {
+  background: rgb(49, 49, 49);
+  color: white;
+}
+
+.light {
+  background: white;
+  color: black;
+}
