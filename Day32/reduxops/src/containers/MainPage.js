@@ -25,7 +25,4 @@ const mapDispatchToProps = dispatch => ({
   light: () => dispatch(light())
 });
 
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps
-)(MainPage);
+export default connect(mapStateToProps, mapDispatchToProps)(MainPage);
