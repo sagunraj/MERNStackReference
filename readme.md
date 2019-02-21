@@ -331,3 +331,10 @@ Day 32
 ##### Components of Redux:
 - Redux store: Stores all the data of the app and provides data to every component.
 - Reducer: Listens to ACTIONS DISPATCHED from components and modifies the data present in the Redux store.
+
+------------------------------------------------------------------------------------
+Day 33
+------------------------------------------------------------------------------------
+#### Redux:
+A nice sequence to work on Redux is:
+Actions -> Reducer -> Store -> Connect
